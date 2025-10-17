@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color:black;
+}
+h1{
+    color: gray;
+}
+header{
+    padding: 5%;
+    position: relative;
+    background-color: black;
+    text-align: center;
+}
+main{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+
+}
+main img{
+    width: 40vh;
+    height: 40vh;
+    position:absolute;
+    height:100%;
+    width:100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    object-fit:contain;
+    color:transparent;
+}
